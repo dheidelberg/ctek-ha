@@ -1,0 +1,20 @@
+[project]
+name = "ctek-ha"
+version = "0.1.0"
+description = "CTEK cloud API client and Home Assistant integration"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.10",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["custom_components/ctek"]

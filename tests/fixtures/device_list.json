@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "device_id": "TESTSERIAL0002",
+      "device_alias": "Outdoor charger",
+      "hardware_id": "50020727K",
+      "firmware_id": "E022",
+      "device_type": "CS_ONE_GEN_1",
+      "model": "40-330",
+      "standardized_model": "CS ONE",
+      "number_of_connectors": 1,
+      "firmware_version": "E022",
+      "firmware_update": {
+        "update_available": false
+      },
+      "has_schedules": false,
+      "device_info": {
+        "mac_address": "00:11:22:33:44:55",
+        "passkey": "<redacted>"
+      },
+      "user_device": {
+        "device_id": "TESTSERIAL0002",
+        "device_name": "Outdoor charger",
+        "notes": null,
+        "categories": [],
+        "output_power": {
+          "type": null
+        },
+        "brand": "CTEK",
+        "connector": {
+          "type": null
+        }
+      },
+      "owner": true
+    },
+    {
+      "device_id": "TESTSERIAL0001",
+      "device_alias": "Garage charger",
+      "hardware_id": "CS_ONE_2_PROD",
+      "firmware_id": "r5.6.5-0-g8e98d897_csone_wifi_production",
+      "device_type": "CS_ONE_GEN_2",
+      "model": "40-701",
+      "standardized_model": "CS ONE GEN 2",
+      "number_of_connectors": 1,
+      "firmware_version": "5.6.5",
+      "device_status": {
+        "connected": true,
+        "connectors": [
+          {
+            "id": 1,
+            "current_status": "Offline",
+            "start_date": "2026-09-02T16:14:17.441149",
+            "status_reason": "Firmware Update: r5.6.5-0-g8e98d897_csone_wifi_production",
+            "update_date": "2026-09-02T16:16:19.013962",
+            "relative_time": "vor 3 Stunden",
+            "has_schedule": false,
+            "has_active_schedule": false,
+            "has_overridden_schedule": false
+          }
+        ],
+        "load_balancing_onboarded": false,
+        "third_party_ocpp_status": {
+          "enabled": false
+        },
+        "flagged_to_receive_auth_key": false
+      },
+      "firmware_update": {
+        "update_available": false
+      },
+      "has_schedules": false,
+      "device_info": {
+        "mac_address": "00:11:22:33:44:55",
+        "passkey": "<redacted>"
+      },
+      "user_device": {
+        "device_id": "TESTSERIAL0001",
+        "device_name": "Garage charger",
+        "notes": null,
+        "categories": [],
+        "output_power": {
+          "type": null
+        },
+        "brand": "CTEK",
+        "connector": {
+          "type": "CLAMPS"
+        }
+      },
+      "owner": true
+    }
+  ],
+  "status_code": 200,
+  "timestamp": "2026-09-02T19:34:42.384539219",
+  "status_message": "Success"
+}

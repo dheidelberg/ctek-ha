@@ -1,0 +1,13 @@
+{
+  "domain": "ctek",
+  "name": "CTEK",
+  "codeowners": ["@dheidelberg"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/dheidelberg/ctek-ha",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/dheidelberg/ctek-ha/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

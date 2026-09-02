@@ -1,0 +1,44 @@
+[
+  {
+    "type": "lvAppDeviceState",
+    "device_id": "TESTSERIAL0001",
+    "session_started": false,
+    "program": "APTO",
+    "charger_state": 1,
+    "state_of_charge": null,
+    "sampled_voltage": null,
+    "sampled_current": null,
+    "time_remaining": null,
+    "error_critical": false,
+    "error_recoverable": false,
+    "timestamp": "2026-09-02T19:30:24.066Z"
+  },
+  {
+    "type": "lvAppDeviceState",
+    "device_id": "TESTSERIAL0001",
+    "session_started": true,
+    "program": "APTO",
+    "charger_state": 5,
+    "state_of_charge": 90,
+    "sampled_voltage": 14183,
+    "sampled_current": 3081,
+    "time_remaining": 2,
+    "error_critical": false,
+    "error_recoverable": false,
+    "timestamp": "2026-09-02T19:34:54.088Z"
+  },
+  {
+    "type": "lvAppDeviceState",
+    "device_id": "TESTSERIAL0001",
+    "session_started": true,
+    "program": "APTO",
+    "charger_state": 5,
+    "state_of_charge": 90,
+    "sampled_voltage": 14184,
+    "sampled_current": 3076,
+    "time_remaining": 2,
+    "error_critical": false,
+    "error_recoverable": false,
+    "timestamp": "2026-09-02T19:35:09.071Z"
+  }
+]

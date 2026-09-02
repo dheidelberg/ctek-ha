@@ -1,0 +1,109 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CTEK-Konto",
+        "description": "Mit dem Konto anmelden, das du in der CTEK-App benutzt.",
+        "data": {
+          "email": "E-Mail",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "CTEK erneut anmelden",
+        "description": "Das Passwort für {email} wird nicht mehr akzeptiert. Bitte das aktuelle Passwort eingeben.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "CTEK-Cloud nicht erreichbar",
+      "invalid_auth": "E-Mail oder Passwort ungültig",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits eingerichtet",
+      "reauth_successful": "Erneute Anmeldung erfolgreich"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "voltage": {
+        "name": "Spannung"
+      },
+      "current": {
+        "name": "Strom"
+      },
+      "state_of_charge": {
+        "name": "Ladezustand"
+      },
+      "charger_state": {
+        "name": "Ladephase",
+        "state": {
+          "disconnected": "Getrennt",
+          "idle": "Bereit",
+          "start": "Start",
+          "pair": "Kopplung",
+          "check": "Prüfung",
+          "analyze": "Analyse",
+          "bulk": "Hauptladung",
+          "abs": "Absorption",
+          "float": "Erhaltung",
+          "pulse": "Puls",
+          "care": "Pflege",
+          "charge": "Laden",
+          "wait": "Warten",
+          "wake_up": "Wake up",
+          "error": "Fehler",
+          "recovery_mode": "Wiederherstellung",
+          "upgrading_firmware": "Firmware-Update",
+          "stopped_ota": "Gestoppt (OTA)"
+        }
+      },
+      "program": {
+        "name": "Ladeprogramm",
+        "state": {
+          "apto": "APTO",
+          "recond": "Recond",
+          "supply": "Supply",
+          "wake_up": "Wake up"
+        }
+      },
+      "time_remaining": {
+        "name": "Restzeit"
+      },
+      "last_update": {
+        "name": "Letzte Aktualisierung"
+      },
+      "connector_status": {
+        "name": "Anschlussstatus"
+      },
+      "charger_state_code": {
+        "name": "Ladephasen-Code"
+      }
+    },
+    "binary_sensor": {
+      "connected": {
+        "name": "Cloud-Verbindung"
+      },
+      "stream_connected": {
+        "name": "Live-Stream"
+      },
+      "session_active": {
+        "name": "Ladesitzung"
+      },
+      "error_critical": {
+        "name": "Kritischer Fehler"
+      },
+      "error_recoverable": {
+        "name": "Behebbarer Fehler"
+      }
+    },
+    "update": {
+      "firmware": {
+        "name": "Firmware"
+      }
+    }
+  }
+}

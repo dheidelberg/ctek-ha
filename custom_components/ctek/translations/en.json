@@ -1,0 +1,109 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CTEK account",
+        "description": "Sign in with the account you use in the CTEK app.",
+        "data": {
+          "email": "E-mail",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate CTEK",
+        "description": "The password for {email} is no longer accepted. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the CTEK cloud",
+      "invalid_auth": "Invalid e-mail or password",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured",
+      "reauth_successful": "Re-authentication was successful"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "voltage": {
+        "name": "Voltage"
+      },
+      "current": {
+        "name": "Current"
+      },
+      "state_of_charge": {
+        "name": "State of charge"
+      },
+      "charger_state": {
+        "name": "Charger state",
+        "state": {
+          "disconnected": "Disconnected",
+          "idle": "Idle",
+          "start": "Start",
+          "pair": "Pairing",
+          "check": "Check",
+          "analyze": "Analyze",
+          "bulk": "Bulk",
+          "abs": "Absorption",
+          "float": "Float",
+          "pulse": "Pulse",
+          "care": "Care",
+          "charge": "Charge",
+          "wait": "Wait",
+          "wake_up": "Wake up",
+          "error": "Error",
+          "recovery_mode": "Recovery mode",
+          "upgrading_firmware": "Upgrading firmware",
+          "stopped_ota": "Stopped (OTA)"
+        }
+      },
+      "program": {
+        "name": "Charge program",
+        "state": {
+          "apto": "APTO",
+          "recond": "Recond",
+          "supply": "Supply",
+          "wake_up": "Wake up"
+        }
+      },
+      "time_remaining": {
+        "name": "Time remaining"
+      },
+      "last_update": {
+        "name": "Last update"
+      },
+      "connector_status": {
+        "name": "Connector status"
+      },
+      "charger_state_code": {
+        "name": "Charger state code"
+      }
+    },
+    "binary_sensor": {
+      "connected": {
+        "name": "Cloud connection"
+      },
+      "stream_connected": {
+        "name": "Live stream"
+      },
+      "session_active": {
+        "name": "Charging session"
+      },
+      "error_critical": {
+        "name": "Critical error"
+      },
+      "error_recoverable": {
+        "name": "Recoverable error"
+      }
+    },
+    "update": {
+      "firmware": {
+        "name": "Firmware"
+      }
+    }
+  }
+}

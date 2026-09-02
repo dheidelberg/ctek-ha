@@ -1,0 +1,6 @@
+{
+  "data": null,
+  "status_code": 400,
+  "timestamp": "2026-09-02T19:34:42.913430173",
+  "status_message": "Given device TESTSERIAL0001 is not CS One Gen 1 type."
+}
